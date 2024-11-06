@@ -1,0 +1,51 @@
+/* src/styles/Home.css */
+
+.home-container {
+    text-align: center; /* Center text and elements */
+    margin: 20px; /* Add some margin */
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block; /* Ensure the button is treated as a block element */
+  }
+  .logo-pic{
+     width: '80%';
+     height: 'auto';
+     border-radius: '5px';
+  }
+
+ 
+
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .learn-more-button {
+    display: inline-block; /* Make it behave like a button */
+    padding: 12px 24px; /* Add padding for a button-like appearance */
+    background-color: #28a745; /* Green background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  .learn-more-button:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .learn-more-button:focus {
+    outline: none; /* Remove outline on focus */
+  }

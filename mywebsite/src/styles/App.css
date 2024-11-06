@@ -1,0 +1,85 @@
+/* src/styles/App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  nav ul li button:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  div {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  /* src/styles/App.css */
+
+nav img {
+    display: block;
+    margin: 0 auto 10px; /* Center the logo and add some margin below */
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  /* src/styles/App.css */
+
+nav {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center the links */
+    position: relative; /* Position relative for absolute positioning of the logo */
+  }
+  
+  nav img {
+    border-radius: 50%; /* Make the logo circular */
+    width: 50px; /* Adjust the size of the logo */
+    height: 50px; /* Keep the height the same as width for a perfect circle */
+    position: absolute; /* Position the logo absolutely */
+    left: 20px; /* Shift the logo to the left */
+    top: 10px; /* Adjust the top position as needed */
+  }
+  
+  nav ul {
+    display: flex; /* Use flexbox for horizontal layout */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px; /* Add margin between links */
+  }
